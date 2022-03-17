@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rdata
+.httr-oauth
+.DS_Store
+*.h5ad
+*.json
+*.json.gz
+*.rds
+*.RData

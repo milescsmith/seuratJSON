@@ -1,0 +1,24 @@
+Package: seuratJSON
+Type: Package
+Title: Converts a JSON file into a Seurat object
+Version: 0.1.0
+Author: Miles Smith
+Maintainer: Miles Smith <miles-smith@omrf.org>
+Description: Reads an JSON file (currently, just serialized
+    AnnData objects) and converts it into a Seurat object
+License: LGPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    janitor,
+    magrittr,
+    Matrix,
+    purrr,
+    RcppSimdJson (>= 0.1.7),
+    rlang,
+    SeuratObject
+Remotes: 
+    github::eddelbuettel/rcppsimdjson
+RoxygenNote: 7.1.2
+URL: https://github.com/milescsmith/seuratJSON
+BugReports: https://github.com/milescsmith/seuratJSON/issues
